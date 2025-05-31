@@ -25,13 +25,40 @@ a{
 }
 
 #texto {
-    background: linear-gradient(135deg, #7b00ff, #9b3d77);
+    background: linear-gradient(135deg, #8d019a67, #000000);
     padding: 50px;
     border-radius: 20px;
     max-width: 600px;
     width: 90%;
     margin: 0 auto;
     text-align: center;
+
+   .botao-presente {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #dc27c1;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.botao-presente:hover {
+  background-color: #e64cbf;
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+.botao-presente:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+ 
 }
 @media screen and (max-width: 76px8 ){
     .container{
