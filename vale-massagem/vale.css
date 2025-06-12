@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(to right,  #1a0c3dbe, #000000);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.vale-container {
+  background: linear-gradient(to right, #33147a, #a41770);
+  padding: 40px;
+  margin: auto;
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 36px;
+  animation: pulsar 1.5s infinite;
+}
+
+.gif {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+@keyframes pulsar {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
